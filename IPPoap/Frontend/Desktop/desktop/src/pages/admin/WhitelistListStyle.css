@@ -1,0 +1,51 @@
+.container-table-domains{
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+.table-domains{
+    width: 100vh;
+    text-align: center;
+}
+
+.table-domains th{
+    
+    border-bottom:solid;
+    font-size:large;
+    border-top: solid;
+
+}
+
+.table-domains td{
+    border-bottom:solid;
+    border-width: 0.5mm;
+    
+}
+
+.container-table-emails{
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+.table-emails{
+    width: 100vh;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.table-emails th{
+    
+    border-bottom:solid;
+    font-size:larger;
+    border-top: solid;
+
+}
+
+.table-emails td{
+    border-bottom:solid;
+    border-width: 0.5mm;
+
+    
+}

@@ -1,0 +1,30 @@
+.container-table-events{
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 1vh;
+    
+    
+    
+}
+.table-events{
+    
+    width: 150vh;
+    min-height: 30vh;
+    padding-left: 5vh;
+    font-family: monospace;
+    text-align: center;
+}
+
+.table-events th{
+    
+    border-bottom:solid;
+    font-size:xx-large;
+    border-top: solid;
+}
+
+.table-events td{
+    border-bottom:solid;
+    border-width: 0.5mm;
+    font-size:large;
+}
+

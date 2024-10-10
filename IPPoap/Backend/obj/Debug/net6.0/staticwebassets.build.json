@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "mdQrv/7L+fPLXAAWitdeK4QedNDcKeTfIVnS77batQ4=",
+  "Source": "Backend",
+  "BasePath": "_content/Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend\\wwwroot",
+      "Source": "Backend",
+      "ContentRoot": "D:\\Faculdade\\3-Ano\\LDS\\lds2223_01\\IPPoap\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Faculdade\\3-Ano\\LDS\\lds2223_01\\IPPoap\\Backend\\wwwroot\\Uploads\\Common\\noimage.png",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faculdade\\3-Ano\\LDS\\lds2223_01\\IPPoap\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Uploads/Common/noimage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Common\\noimage.png"
+    }
+  ]
+}

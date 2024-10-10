@@ -1,0 +1,21 @@
+.poaps-title{
+    text-align: center;
+}
+
+.item-wallet{
+    margin-top: 65%;
+    margin-bottom: 5%;
+    }
+
+.buttonWalltet {
+    margin-left: 5%;
+    margin-left: 7%;
+}
+
+.divStyle{
+    display: grid;
+    justify-content: center;
+    width:70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}

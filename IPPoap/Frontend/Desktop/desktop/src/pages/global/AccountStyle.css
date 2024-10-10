@@ -1,0 +1,45 @@
+.header-account-selected {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: black;
+    color:white
+}
+
+.logoutButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+    margin-top: 2vh;
+    
+}
+
+.logout-form-btn{
+    font-size: 30px;
+    border:none;
+    border-radius: 15px;
+    background-color: #f85f6a;
+    color:white;
+    line-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 55px;
+    
+}
+
+.input{
+    color: black;
+    border-bottom: solid;
+    line-height:1mm;
+}

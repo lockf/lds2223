@@ -1,0 +1,15 @@
+.poaps-title{
+    text-align: center;
+}
+
+.item-redeem{
+    display: grid;
+    justify-content: center;
+    margin-top: 65%;
+    margin-bottom: 5%;
+}
+
+.buttonReedem {
+    display: grid;
+    justify-content: center;
+}

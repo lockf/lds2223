@@ -1,0 +1,111 @@
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Backend.deps.json
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Backend.runtimeconfig.json
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\appsettings.Development.json
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\appsettings.json
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Backend.exe
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Backend.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Microsoft.OpenApi.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Backend.pdb
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\VS Code\Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\appsettings.Development.json
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\appsettings.json
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.deps.json
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.runtimeconfig.json
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.exe
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.OpenApi.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.pdb
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.Annotations.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Castle.Core.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Identity.Client.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\BCrypt.Net-Next.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\launchSettings.json
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.xml
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\System.Text.Json.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\appsettings.Development.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\appsettings.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.deps.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.runtimeconfig.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\launchSettings.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.exe
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\System.Text.Json.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Castle.Core.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.pdb
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.xml
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\Backend.staticwebassets.runtime.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\libman.json
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\AutoMapper.dll
+C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Faculdade\3-Ano\LDS\lds2223_01\IPPoap\Backend\bin\Debug\Backend.staticwebassets.runtime.json

@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  backend:
+    image: "8200289/backend:backend"
+    ports:
+      - "8081:5000"
+    depends_on:
+      - IPPoap
+
+  backoffice:
+    image: "8200289/react-backoffice:latest"
+    build:
+      context: .
+    ports: 
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  IPPoap:
+    image: "rmcc0951/lds_db:new"
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Database!2023"
+    volumes:
+      - db-volume:/var/lib/mysql
+volumes:
+  db-volume: {}

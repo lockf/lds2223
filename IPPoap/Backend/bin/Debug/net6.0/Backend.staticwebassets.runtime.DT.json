@@ -1,0 +1,37 @@
+{
+  "ContentRoots": [
+    "/src/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "Uploads": {
+        "Children": {
+          "Common": {
+            "Children": {
+              "noimage.png": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "Uploads/Common/noimage.png"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}

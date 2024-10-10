@@ -1,0 +1,15 @@
+.AddCircleIcon {
+    height: 60px;
+    width: 50px;
+    background-color: green;
+    display: flex;
+    position: absolute;
+  box-sizing:border-box;
+  transform: translateY(-50%);
+}
+
+.AddCircleIcon svg{
+    font-size: 35px;
+    border: none;
+    size:large;
+}

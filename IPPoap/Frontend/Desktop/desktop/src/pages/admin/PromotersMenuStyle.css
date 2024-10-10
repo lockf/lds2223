@@ -1,0 +1,35 @@
+.header-promoters-selected {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: black;
+    color:white
+}
+
+.header-events {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.wrap-searchBar{
+    display:flex;
+    padding: 2vh 150vh 0vh  ;
+    flex-direction: row;
+    
+}
+
+
+    

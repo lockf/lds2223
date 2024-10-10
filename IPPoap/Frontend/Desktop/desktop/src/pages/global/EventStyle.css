@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: both;
+
+}
+
+/*imagem de fundo*/
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('./assets/fundoIpPoap.png');
+    background-size: 100%;
+    height: 100%;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-color: #dff6ff;
+
+}
+
+.container-event {
+    width: 80%;
+    min-height: 15vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: left;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.imageContainer {
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 50px;
+    
+
+}
+
+
+.header {
+
+    width: 800px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: left;
+
+}
+
+.header-events-selected {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: black;
+    color:white
+}
+
+.header-promoters {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.header-definitions {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+
+.header-account {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+
+
+/*cria a "caixa" branca */
+
+.wrap-event {
+    
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 66vh;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5mm;
+    border-bottom: white;
+
+}
+
+.text-events {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vh;
+    padding-top: 2vh;
+}
+
+.boxes {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    padding-left: 100vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes-create-events {
+    color:white;
+    font-family: monospace;
+    font-weight: bolder;
+    padding: 20px 20px 20px 20px;
+    border-color: black;
+    border-style: solid ;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    background-color: #f85f6a;
+    font-size:x-large ;
+    
+}
+
+.boxes-empty{
+    padding: 20px 100px 20px 20px;
+}
+
+.boxes-list-events {
+    color:white;
+    font-family: monospace;
+    font-weight: bolder;
+    padding: 20px 20px 20px 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5mm;
+    background-color: #f85f6a;
+    font-size:x-large ;
+}
+

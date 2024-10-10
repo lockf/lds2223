@@ -1,0 +1,40 @@
+.input{
+    display: list-item;
+    margin-top: 80%;
+    height: 65%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.content{
+    --background: url('../assets/poap_logo.png') top center no-repeat;
+    display: flex;
+}
+
+.megacontainer{
+    --background: url('../assets/fundoIPPoap.png') top center no-repeat;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+}
+
+.login-btn{
+    --background: #f85f6a;
+    display: block;
+    margin-top: 10%;
+    width:50%;
+    margin-left:25%
+}
+
+
+.signin-btn{
+    --background: #f85f6a;
+    display: block;
+    margin-top: 5%;
+    width:50%;
+    margin-left:25%
+}

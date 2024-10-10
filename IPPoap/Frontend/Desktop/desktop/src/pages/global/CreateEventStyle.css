@@ -1,0 +1,33 @@
+
+
+
+.form-row{
+    display: flex;
+    font-family: monospace;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    grid-column-gap: 2vh;
+    font-size: medium;
+    
+}
+
+
+
+
+.btn-submit{
+    margin-left: 10vh;
+    background-color: #f85f6a;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 15px;
+    line-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 120px;
+    height: 45px;
+}
+

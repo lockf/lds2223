@@ -1,0 +1,1138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend</name>
+    </assembly>
+    <members>
+        <member name="M:Backend.Controllers.EntityController.GetEntity">
+            <summary>
+            Gets Entity
+            </summary>
+            <returns>A list of domains</returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.CreateEntity(System.String)">
+            <summary>
+            Creates Entity.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.EditParticipanteWallet(System.String)">
+            <summary>
+            Changes Entity name.
+            </summary>
+            <param name="newName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.RemoveEntity(System.String)">
+            <summary>
+            Remove Entity
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.GetWhitelistedDomains">
+            <summary>
+            Gets Whitelisted Domains
+            </summary>
+            <returns>A list of domains</returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.CreateDomain(System.String)">
+            <summary>
+            Creates a Domain.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.EditParticipanteWallet(System.String,System.String)">
+            <summary>
+            Changes Domain.
+            </summary>
+            <param name="newDomain"></param>
+            <param name="domain"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.RemoveDomain(System.String)">
+            <summary>
+            Remove Domain
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.GetWhitelistedEmails">
+            <summary>
+            Gets Whitelisted Emails
+            </summary>
+            <returns>A list of emails</returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.CreateWhitelistedEmail(System.String)">
+            <summary>
+            Creates a Whitelisted Email.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.EditEmail(System.String,System.String)">
+            <summary>
+            Changes email.
+            </summary>
+            <param name="email"></param>
+            <param name="newEmail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.RemoveWhitelistedEmail(System.String)">
+            <summary>
+            Remove Whitelisted Email
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.GetGroups">
+            <summary>
+            Gets Groups
+            </summary>
+            <returns>A list of emails</returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.CreateGroup(System.String)">
+            <summary>
+            Creates a Group.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.EditGroup(System.String,System.Int32)">
+            <summary>
+            Changes group name.
+            </summary>
+            <param name="groupId"></param>
+            <param name="newName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EntityController.RemoveGroup(System.Int32)">
+            <summary>
+            Remove group
+            </summary>
+            <param name="groupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.GetAllEvents">
+            <summary>
+            Gets a list of events in DB
+            </summary>
+            <returns>A list of events</returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.CreateEventAdmin(Backend.Models.VM.CreateEventVM,System.Int32)">
+            <summary>
+            Creates a Event as Admin.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.EditEventDisplay(System.Int32)">
+            <summary>
+            Changes Event Display.
+            </summary>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.CreateEventManager(Backend.Models.VM.CreateEventVM,System.Int32)">
+            <summary>
+            Creates a Event as Manager.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.Follow(System.Int32,System.Int32)">
+            <summary>
+            Follow event.
+            </summary>
+            <param name="participanteId"></param>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.Unfollow(System.Int32,System.Int32)">
+            <summary>
+            Unfollow event.
+            </summary>
+            <param name="participanteId"></param>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.GetEventTypes">
+            <summary>
+            Gets Event Types
+            </summary>
+            <returns>A list of Event types</returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.CreateEventType(System.String)">
+            <summary>
+            Creates a Event Type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.EditEventTypeName(System.String,System.Int32)">
+            <summary>
+            Changes Event Type name.
+            </summary>
+            <param name="newName"></param>
+            <param name="eventTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EventController.RemoveEventType(System.Int32)">
+            <summary>
+            Remove Event Type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EmailService.SendEmail(Backend.Models.MailRequest)">
+            <summary>
+            Send email with link to redeem poap.
+            </summary>
+            <param name="mailRequest">MailRequest to send email with link to redeem poap</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EmailService.SendEmailPassword(Backend.Models.VM.CreateUserHP,System.String)">
+            <summary>
+            Send email with credentials to the high priority users.
+            </summary>
+            <param name="userHP">CreateUserHP to create user</param>
+            <param name="password">Password generate for the user</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.AddEntity(System.String)">
+            <summary>
+            Create an Entity in db
+            </summary>
+            <param name="entity">Entity that want create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.RemoveEntity(System.String)">
+            <summary>
+            Removes an entity from the db
+            </summary>
+            <param name="entityName">Entity that is to remove"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.AddDomain(System.String)">
+            <summary>
+            Adds a Domain to the Domain Whitelist in db
+            </summary>
+            <param name="domain">Domain Whitelist that want create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.RemoveDomain(System.String)">
+            <summary>
+            Removes a Domain from the Domain Whitelist in the db
+            </summary>
+            <param name="domain">Domain that is to be removed"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EditDomain(System.String,System.String)">
+            <summary>
+            Edit domain
+            </summary>
+            <param name="newDomain"> The new domain to insert</param>
+            <param name="domain"> Domain to edit</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.AddEmailWhitelist(System.String)">
+            <summary>
+            Adds an Email to the Email Whitelist in db
+            </summary>
+            <param name="email">Email Whitelist that want create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.RemoveEmailWhitelist(System.String)">
+            <summary>
+            Removes an Email from the Email Whitelist in the db
+            </summary>
+            <param name="email">Email Whitelist that is to be removed"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EditEmail(System.String,System.String)">
+            <summary>
+            Edit email
+            </summary>
+            <param name="newEmail"> The new email to insert</param>
+            <param name="email">The email to edit</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EditEntityName(System.String)">
+            <summary>
+            Edit entity name
+            </summary>
+            <param name="newName"> The new name to insert</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ValidateEntity(System.String)">
+            <summary>
+            Verify if Entity is valid
+            </summary>
+            <param name="EntityName">Name of Entity to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EntityExists(System.String)">
+            <summary>
+            Verify if an Entity and exists in DB
+            </summary>
+            <param name="EntityName">Entity Name that want to verify in db</param>
+            <returns>Return true if exists in db;
+            Return false if doesn´t exist in db;</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EntityExists">
+            <summary>
+            Verify if an Entity already exists in the DB
+            </summary>
+            <returns>Return true if exists an Entity in db;
+            Return false if doesn´t exist in db;</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetEntity">
+            <summary>
+            Gets the id of the first entity created that exists in DB
+            </summary>
+            <returns>Return id</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetEntityId">
+            <summary>
+            Gets the id of the first entity created that exists in DB
+            </summary>
+            <returns>Return id</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ValidateDomain(System.String)">
+            <summary>
+            Verify if domain is valid
+            </summary>
+            <param name="domain">Name of the domain to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.DomainExists(System.String)">
+            <summary>
+            Verifies if domain already exists in DB
+            </summary>
+            <returns>Return bool</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.CheckDomain(System.String)">
+            <summary>
+            Verifies if domain starts with "@", and adds it if it doesn't
+            </summary>
+            <returns>Return string</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ValidateEmail(System.String)">
+            <summary>
+            Verify if email is valid
+            </summary>
+            <param name="email">Name of the domain to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EmailExists(System.String)">
+            <summary>
+            Verifies if email already exists in whitelistEmail table of the DB
+            </summary>
+            <returns>Return true if there is, false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EmailIsValid(System.String)">
+            <summary>
+            Verifies if email is valid
+            </summary>
+            <param name="emailAddress"></param>
+            <returns>Return true if it is, false if it isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetListWhitelistedDomains">
+            <summary>
+            Gets whtitelisted domains
+            </summary>
+            <returns>Return list of domains</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetListWhitelistedEmails">
+            <summary>
+            Gets whitelisted emails
+            </summary>
+            <returns>Return list of emails</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ExistsWhitelistedEmails">
+            <summary>
+            Verifies if there is any whitelisted emails in DB
+            </summary>
+            <returns>Return true if there is or false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ExistsWhitelistedDomains">
+            <summary>
+            Verifies if there is any whitelisted domains in DB
+            </summary>
+            <returns>Return true if there is or false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.AddGroup(System.String)">
+            <summary>
+            Adds a Group to db
+            </summary>
+            <param name="name">Name of the group to add to db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.RemoveGroup(System.Int32)">
+            <summary>
+            Removes a Group from db
+            </summary>
+            <param name="id">Id of the group to remove from db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ExistsGroup">
+            <summary>
+            Verifies if there is any group in DB
+            </summary>
+            <returns>Return true if there is or false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ExistsGroup(System.Int32)">
+            <summary>
+            Verifies if there is any group in DB
+            </summary>
+            <param name="id">Id of the group</param>
+            <returns>Return true if there is or false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ExistsGroup(System.String)">
+            <summary>
+            Verifies if there is any group in DB
+            </summary>
+            <param name="name">Name of the group</param>
+            <returns>Return true if there is or false if there isn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.ValidateGroup(System.String)">
+            <summary>
+            Verify if group is valid
+            </summary>
+            <param name="name">Name of the group to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.EditGroup(System.String,System.Int32)">
+            <summary>
+            Edit Group
+            </summary>
+            <param name="newGroup"> The new group name to insert</param>
+            <param name="groupId">The group to edit</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetListGroups">
+            <summary>
+            Gets Groups
+            </summary>
+            <returns>Return list of group names</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EntityService.GetFirstGroupId">
+            <summary>
+            Gets the id of the first entity created that exists in DB
+            </summary>
+            <returns>Return id</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.AddEventType(System.String)">
+            <summary>
+            Create an Event type in db
+            </summary>
+            <param name="eventType">Event type that want to create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.RemoveEventType(System.Int32)">
+            <summary>
+            Removes an Event type from the db
+            </summary>
+            <param name="eventTypeId">Id of the Event Type that is to remove"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.GetEventTypes">
+            <summary>
+            Gets Event Type list
+            </summary>
+            <returns>Return list of Event Type</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.EditEventTypeName(System.String,System.Int32)">
+            <summary>
+            Edit Event Type name
+            </summary>
+            <param name="newName">New name for the admin</param>
+            <param name="eventTypeId">Id of the Event Type to change name</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ExistsEventTypes">
+            <summary>
+            Verify if exists any Event Type
+            </summary>
+            <returns>Return bool, true if exists or false if it doesn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ExistsEventTypes(System.String)">
+            <summary>
+            Verify if exists any Event Type
+            </summary>
+            <param name="eventTypeName">Name of Event type to verify if exists</param>
+            <returns>Return bool, true if exists or false if it doesn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ExistsEventTypes(System.Int32)">
+            <summary>
+            Verify if exists any Event Type
+            </summary>
+            <param name="eventTypeId">Id of Event type to verify if exists</param>
+            <returns>Return bool, true if exists or false if it doesn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ExistsEvent(System.Int32)">
+            <summary>
+            Verify if exists any Event Type
+            </summary>
+            <param name="eventId">Id of Event to verify if exists</param>
+            <returns>Return bool, true if exists or false if it doesn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ExistsEvent">
+            <summary>
+            Verify if exists any Event Type
+            </summary>
+            <returns>Return bool, true if exists or false if it doesn't</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ValidateEventType(System.String)">
+            <summary>
+            Verify if Event Type is valid
+            </summary>
+            <param name="EventTypeName">Name of Event Type to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ValidateEvent(Backend.Models.VM.EventVM)">
+            <summary>
+            Verify if Event Type is valid
+            </summary>
+            <param name="eventVM">Event to validate</param>
+            <returns>A list with errors, or an empty list if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.AddEvent(Backend.Models.VM.CreateEventVM,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Create an Event in db
+            </summary>
+            <param name="createEventVM">Event info that want to create in db</param>
+            <param name="adminId">Id of the Admin creating event</param>
+            <param name="managerId">Id of the Manager creating event</param>
+            <returns>Id of the event or 0 if failed</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.AddImageToPoap(Backend.Models.VM.PoapVM,System.Int32)">
+            <summary>
+            Create a Poap with image info in db
+            </summary>
+            <param name="poapVM">Poap that want to create in db</param>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.AddEventType_Event(System.Int32)">
+            <summary>
+            Create a Relation between EventType and Event in db
+            </summary>
+            <param name="eventTypeId">Id of the event type</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.AddImage(Backend.Models.VM.ImageVM,System.Int32)">
+            <summary>
+            Create an Image in db
+            </summary>
+            <param name="imageVM">Image that want to create in db</param>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ParticipanteFollowsEvent(System.Int32,System.Int32)">
+            <summary>
+            Verifies if Participante follows event in db
+            </summary>
+            <param name="participanteId">Id of the participante</param>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.FollowEvent(System.Int32,System.Int32)">
+            <summary>
+            Create an entry Participante_Event in db to follow
+            </summary>
+            <param name="participanteId">Id of the participante</param>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.UnfollowEvent(System.Int32,System.Int32)">
+            <summary>
+            Delete an entry Participante_Event in db to unfollow
+            </summary>
+            <param name="participanteId">Id of the participante</param>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.ChangeEventDisplay(System.Int32)">
+            <summary>
+            Delete an entry Participante_Event in db to unfollow
+            </summary>
+            <param name="eventId">Id of the event</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.EventService.GetsAllEvents">
+            <summary>
+            Gets a list of events
+            </summary>
+            <returns>Return list of Events</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.Login(Backend.Models.VM.LoginVM)">
+            <summary>
+            API login to get authentication token
+            </summary>
+            <param name="login">LoginVM with authentication credentials</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.LoginSA(Backend.Models.VM.LoginSA)">
+            <summary>
+            API login to get authentication token
+            </summary>
+            <param name="login">LoginVM with authentication credentials</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.RemoveAllSuperAdmin">
+            <summary>
+            Removes an admin from the list of admins
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AdminExists(System.String)">
+            <summary>
+            Verifies if an admin exists in DB
+            </summary>
+            <param name="email">Id of the admin that is to be verified if exists"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AdminExists">
+            <summary>
+            Verifies if any admin exists in DB
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ManagerExists(System.Int32)">
+            <summary>
+            Verifies if a manager exists in DB
+            </summary>
+            <param name="managerId">Id of the manager that is to be verified if exists"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ManagerExists">
+            <summary>
+            Verifies if any manager exists in DB
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ParticipanteExists">
+            <summary>
+            Verifies if any participante exists in DB
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GetAdminsList">
+            <summary>
+            Gets Admins list
+            </summary>
+            <returns>Return list of admins names</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GetListedManagers">
+            <summary>
+            Gets Managers list
+            </summary>
+            <returns>Return list of managers</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GetListedParticipantes">
+            <summary>
+            Gets Participantes list
+            </summary>
+            <returns>Return list of Participantes</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditAdminName(System.String,System.Int32)">
+            <summary>
+            Edit Admin name
+            </summary>
+            <param name="newName">New name for the admin</param>
+            <param name="adminId">Id of the Admin to change name</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AdminInfo(System.Int32)">
+            <summary>
+            Gets user info
+            </summary>
+            <param name="adminId">Id of the Admin </param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ManagerInfo(System.Int32)">
+            <summary>
+            Gets user info
+            </summary>
+            <param name="managerId">Id of the Manager </param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ParticipanteInfo(System.Int32)">
+            <summary>
+            Gets user info
+            </summary>
+            <param name="participanteId">Id of the Participante</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditAdminEmail(System.String,System.Int32)">
+            <summary>
+            Edit Admin name
+            </summary>
+            <param name="newEmail">New email for the admin</param>
+            <param name="adminId">Id of the Admin to change name</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.RemoveAdmin(System.String)">
+            <summary>
+            Removes an admin from the list of admins
+            </summary>
+            <param name="email">Id of the admin that is to be removed"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.RemoveManager(System.Int32)">
+            <summary>
+            Removes a manager from the list of managers
+            </summary>
+            <param name="managerId">Email of the manager that is to be removed"</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditManagerName(System.String,System.Int32)">
+            <summary>
+            Edit Manager name
+            </summary>
+            <param name="newName">New name for the admin</param>
+            <param name="managerId">Id of the Manager to change name</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditManagerEmail(System.String,System.Int32)">
+            <summary>
+            Edit Manager name
+            </summary>
+            <param name="newEmail">New email for the manager</param>
+            <param name="managerId">Id of the Manager to change name</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditDisplay(System.Int32)">
+            <summary>
+            Edit Manager display
+            </summary>
+            <param name="managerId">Id of the Manager to change display</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AddSuperAdmin">
+            <summary>
+            Create a Super Admin in db
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditWallet(System.String,System.String)">
+            <summary>
+            Edit Participante wallet
+            </summary>
+            <param name="wallet"> Participante wallet to change</param>
+            <param name="email">Participiante email of the user to change wallet</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.EditPassword(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Edit password
+            </summary>
+            <param name="newPassword"> New password</param>
+            <param name="adminId">Admin id to change password</param>
+            <param name="managerId">Manager id to change password</param>
+            <param name="participanteId">Participante id to change password</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GenerateToken(System.String,System.String)">
+            <summary>
+            Generate JW Token
+            </summary>
+            <param name="username"> Username to encrypt</param>
+            <param name="role">Role to encrypt</param>
+            <returns>String with Token</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ValidateLoginHighPriority(Backend.Models.VM.LoginVM)">
+            <summary>
+            Verify if VM is valid for Manager or Admin
+            </summary>
+            <param name="login">LoginVM to validate</param>
+            <returns>A List of strings object with errors , or an empty on if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ValidateLoginLowPriority(Backend.Models.VM.LoginVM)">
+            <summary>
+            Verify if VM is valid for Participante
+            </summary>
+            <param name="login">LoginVM to validate</param>
+            <returns>A List of strings object with errors , or an empty on if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.IsValidEmail(System.String)">
+            <summary>
+            Verify if the email is valid
+            </summary>
+            <param name="email">Email to validate</param>
+            <returns>Return true if email is valid;
+            Return false if email isn't valid;</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.SuperAdminExists">
+            <summary>
+            Verify how many Super Admins exist in DB
+            </summary>
+            <returns>Return the amount of Super Admins that exists in db</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.UserExistsHighPrority(System.String)">
+            <summary>
+            Verify if a user is a Manager or Admin and exists in DB
+            </summary>
+            <param name="email">email of the user that want to verify in db</param>
+            <returns>Return true if exists in db;
+            Return false if doesn´t exist in db;</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.UserExistsLowPrority(System.String)">
+            <summary>
+            Verify if a user is a Participante and exists in DB
+            </summary>
+            <param name="email">email of the user that want to verify in db</param>
+            <returns>Return true if exists in db;
+            Return false if doesn´t exist in db;</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AddAdmin(Backend.Models.VM.CreateUserHP,System.String)">
+            <summary>
+            Create an Admin in db
+            </summary>
+            <param name="user">User that want create in db</param>
+            <param name="Password">Password of the User that want create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AddManager(Backend.Models.VM.CreateUserHP,System.String,System.Int32)">
+            <summary>
+            Create a Manager in db
+            </summary>
+            <param name="user">User that want create in db</param>
+            <param name="Password">Password of the User that want create in db</param>
+            <param name="groupId">Id of the group to associate the manager</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.AddParticipante(Backend.Models.VM.CreateUserVM)">
+            <summary>
+            Create a Participante in db
+            </summary>
+            <param name="user">User that want create in db</param>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ValidateHighUser(Backend.Models.VM.CreateUserHP)">
+            <summary>
+            Verify if CreateUserHP is valid for high profile users
+            </summary>
+            <param name="user">CreateUserHP to validate</param>
+            <returns>An ErrorsVM object with errors , or an empty on if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.ValidateLowUser(Backend.Models.VM.CreateUserVM)">
+            <summary>
+            Verify if CreateUserVM is valid for low profile users
+            </summary>
+            <param name="user">CreateUserVM to validate</param>
+            <returns>An ErrorsVM object with errors , or an empty on if there aren't any errors</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GenerateRandomPassword(Microsoft.AspNetCore.Identity.PasswordOptions)">
+            <summary>
+            Generates a Random Password
+            respecting the given strength requirements.
+            </summary>
+            <param name="opts">A valid PasswordOptions object
+            containing the password strength requirements.</param>
+            <returns>A random password</returns>
+        </member>
+        <member name="M:Backend.Controllers.Services.UserService.GetAdminId">
+            <summary>
+            Gets the id of the first entity created that exists in DB
+            </summary>
+            <returns>Return id</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetAdmins">
+            <summary>
+            Gets a list of Admins names
+            </summary>
+            <returns>A list of Managers names</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetAdminInfo(System.Int32)">
+            <summary>
+            Gets the Admin info
+            </summary>
+            <returns>A Admin information</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.CreateAdmin(Backend.Models.VM.CreateUserHP)">
+            <summary>
+            Creates Admin, and sends email with the credentials.
+            </summary>
+            <param name="user"></param>
+            <remarks>
+            Sample request:
+            
+                POST /Todo (Admin)
+                {
+                   "userName": "admin",
+                   "Email": "admin@estg.ipp.pt"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditAdminName(System.String,System.Int32)">
+            <summary>
+            Changes Admin name.
+            </summary>
+            <param name="adminId"></param>
+            <param name="newName"></param>
+            <remarks>
+            Sample request:
+                
+                PUT /Todo (Participante)
+                {
+                   "admin"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditAdminEmail(System.String,System.Int32)">
+             <summary>
+             Changes Admin Email.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /Todo (Admin)
+                 {
+                    "admin@email.com"
+                 }
+             </remarks>
+             <param name="adminId"></param>
+             <param name="newEmail"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditAdminPassword(System.String,System.Int32)">
+            <summary>
+            Changes Admin password.
+            </summary>
+            <param name="password"></param>
+            <param name="adminId"></param>
+            <remarks>
+            Sample request:
+                
+                PUT /Todo (Admin)
+                {
+                   "asd498s4d"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.DeleteAdmin(System.String)">
+             <summary>
+             Deletes Admin.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 "manager@estg.ipp.pt"
+             </remarks>
+             <param name="email"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetManagers">
+            <summary>
+            Gets a list of Managers names
+            </summary>
+            <returns>A list of Managers names</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetManagerInfo(System.Int32)">
+            <summary>
+            Gets the Manager info
+            </summary>
+            <returns>A Manager information</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.CreateManager(Backend.Models.VM.CreateManagerVM)">
+             <summary>
+             Creates Manager, and sends email with the credentials.
+             </summary>
+             <param name="man"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo (Manager)
+                 {
+                    "userName": "manager",
+                    "email": "manager@estg.ipp.pt",
+                    "groupId": 0
+                 }
+             </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditManagerDisplay(System.Int32)">
+            <summary>
+            Changes Manager Display.
+            </summary>
+            <param name="managerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditManagerName(System.String,System.Int32)">
+             <summary>
+             Changes Manager Display.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo (Manager)
+                 {
+                    "manager"
+                 }
+             </remarks>
+             <param name="managerId"></param>
+             <param name="newName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditManagerEmail(System.String,System.Int32)">
+             <summary>
+             Changes Manager Email.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /Todo (Manager)
+                 {
+                    "manager@email.com"
+                 }
+             </remarks>
+             <param name="managerId"></param>
+             <param name="newEmail"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditManagerPassword(System.String,System.Int32)">
+            <summary>
+            Changes Manager password.
+            </summary>
+            <param name="password"></param>
+            <param name="managerId"></param>
+            <remarks>
+            Sample request:
+                
+                PUT /Todo (Manager)
+                {
+                   "asd498s4d"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.DeleteManager(System.Int32)">
+            <summary>
+            Deletes Manager.
+            </summary>
+            <param name="managerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetParticipantes">
+            <summary>
+            Gets a list of Participantes names
+            </summary>
+            <returns>A list of Participantes names</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetParticipanteInfo(System.Int32)">
+            <summary>
+            Gets the Participante info
+            </summary>
+            <returns>A Participante information</returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.CreateParticipante(Backend.Models.VM.CreateUserVM)">
+            <summary>
+            Creates Participante.
+            </summary>
+            <param name="user"></param>
+            <remarks>
+            Sample request:
+                
+                POST /Todo (Participante)
+                {
+                   "Email": "participante@estg.ipp.pt",
+                   "Password": "participantePassword",
+                   "Wallet": "0x....f" (optional)
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditParticipanteWallet(System.String)">
+            <summary>
+            Changes Participante wallet.
+            </summary>
+            <param name="wallet"></param>
+            <remarks>
+            Sample request:
+                
+                PUT /Todo (Participante)
+                {
+                   "0xas68f4sadasd"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.EditParticipantePassword(System.String,System.Int32)">
+            <summary>
+            Changes Participante password.
+            </summary>
+            <param name="password"></param>
+            <param name="participanteId"></param>
+            <remarks>
+            Sample request:
+                
+                PUT /Todo (Participante)
+                {
+                   "asd498s4d"
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.PostLogin(Backend.Models.VM.LoginVM)">
+             <summary>
+             Login for Users
+             </summary>
+             <param name="login"></param>
+             <remarks>
+             Sample request:
+             
+                 POST /Todo (Admin)
+                 {
+                    "Email": "admin@estg.ipp.pt",
+                    "Password": "adminPassword",
+                    "Priority": "HP" (High Priority)
+                 }
+            
+                 POST /Todo (Manager)
+                 {
+                    "Email": "manager@estg.ipp.pt",
+                    "Password": "managerPassword",
+                    "Priority": "HP" (High Priority)
+                 }
+                 
+                 POST /Todo (Participante)
+                 {
+                    "Email": "participante@estg.ipp.pt",
+                    "Password": "participantePassword",
+                    "Priority": "LP" (Low Priority)
+                 }
+             </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.PostLoginSA(Backend.Models.VM.LoginSA)">
+            <summary>
+            Login for SA User
+            </summary>
+            <param name="login"></param>
+            <remarks>
+            Sample request:
+            
+                POST /Todo
+                {
+                   "UserName": "----", (hidden)
+                   "Password": "----"  (hidden)
+                }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetUserNameFromHeader">
+            <summary>
+            Get the userName uncrypted
+            </summary>
+            <returns>Returns the userName uncrypted or null.</returns>
+        </member>
+        <member name="T:Backend.Migrations.FifthMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.FifthMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.FifthMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.FifthMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Models.VM.CreateUserHP.#ctor(System.String,System.String)">
+            <summary>
+            Class' constructor method
+            </summary>
+            <param name="userName">User's unique identifier for admin and/or manager</param>
+            <param name="email">User's email</param>
+        </member>
+        <member name="M:Backend.Models.VM.CreateUserVM.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Class' constructor method
+            </summary>
+            <param name="email">User's email</param>
+            <param name="password">User's password</param>
+            <param name="Wallet">User's wallet for participante</param>
+        </member>
+        <member name="M:Backend.Models.VM.LoginSA.#ctor(System.String,System.String)">
+            <summary>
+            Class' constructor method
+            </summary>
+            <param name="username">User's username</param>
+            <param name="password">User's password</param>
+        </member>
+        <member name="T:Backend.Models.VM.LoginVM">
+            <summary>
+            View model class for login request
+            </summary>
+        </member>
+        <member name="M:Backend.Models.VM.LoginVM.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Class' constructor method
+            </summary>
+            <param name="email">User's email</param>
+            <param name="password">User's password</param>
+            <param name="priority">Type of User for Login, "HP" for High Priority users or "LP" for Low Priority users</param>
+        </member>
+        <member name="T:Backend.Models.VM.TokenVM">
+            <summary>
+            View model class for token response
+            </summary>
+        </member>
+        <member name="M:Backend.Models.VM.TokenVM.#ctor(System.String,System.String)">
+            <summary>
+            Class' constructor method
+            </summary>
+            <param name="token">Token</param>
+            <param name="username">Username</param>
+        </member>
+    </members>
+</doc>

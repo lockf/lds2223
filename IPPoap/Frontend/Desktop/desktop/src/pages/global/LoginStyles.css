@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+   
+}
+
+/*imagem de fundo*/
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('./assets/fundoIpPoap.png');
+    background-size: 100%;
+    height: 100vh;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-color: #dff6ff;
+
+}
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh;
+}
+
+/*criar div para conseguir centrar a imagem do logo*/
+.imageContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 90px;
+}
+
+
+/*cria a "caixa" branca do login*/
+
+.wrap-login {
+    width: 390px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 55px 55px 55px;
+
+}
+
+.login_form {
+    width: 100%;
+}
+
+.login-form-title {
+    display: block;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    padding-bottom: 35px;
+}
+
+
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 35px;
+
+}
+
+.input {
+    font-size: 15px;
+    color: black;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    border-radius: 10px;
+
+    width: 100%;
+    height: 30px;
+
+    padding: 0 20px;
+}
+
+/*email e password*/
+.focus-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    top: -10px;
+    left: 0;
+
+    pointer-events: none;
+    color: #f85f6a;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+
+/*efeito das palavras email e password antes*/
+.focus-input::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+
+}
+
+/*efeito das palavras email e password depois de subir*/
+.focus-input::after {
+    font-size: 17px;
+    color: #f85f6a;
+    line-height: 1.2;
+
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+
+    padding-left: 5px;
+
+    /*compatiblidade*/
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+/*o que acontece as palavras email e password apos do input*/
+.input:focus+.focus-input::after {
+    top: -15px;
+    font-size: 13px;
+}
+
+/*o que acontece as palavras email e password antes do input*/
+.input:focus+.focus-input::before {
+    width: 100%;
+}
+
+/*permite que as palavras email e password ficam em cima*/
+.has-val+.focus-input::after{
+    top: -15px;
+}
+
+
+.has-val+.focus-input::before{
+    width: 100%;
+}
+
+
+/*botã0*/
+.container-login-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+    
+}
+
+/*personalização do botão*/
+.login-form-btn{
+    font-size: 30px;
+    border:none;
+    border-radius: 15px;
+    background-color: #f85f6a;
+    color:white;
+    line-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 55px;
+    
+}
+
+/*alterar cursor no bottão*/
+.login-form-btn:hover {
+    cursor: pointer;
+}
+
+.text-admin-promotor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*aproximar texto do botão */
+    margin-top: -10px;
+    font-size:smaller;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+
+.text-sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.textSignUp{
+    font-family: monospace;
+    font-weight:bolder;
+    color: #f85f6a;
+    font-size:25px;
+    line-height: 1.5;
+    
+}

@@ -1,0 +1,100 @@
+name: dockercompose2860575576369681716
+services:
+  IPPoap:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Database!2023
+    image: rmcc0951/lds_db:new
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: db-volume
+      target: /var/lib/mysql
+      volume: {}
+  backend:
+    build:
+      context: C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend
+      dockerfile: Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Backend
+      target: base
+    container_name: Backend_1
+    depends_on:
+      IPPoap:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: backend:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Backend.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8080"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "8081"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Asus\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Asus\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Asus\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Asus\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Asus\IPPoap\lds2223_01\IPPoap\Backend
+      target: /src
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose2860575576369681716_default
+volumes:
+  db-volume:
+    name: dockercompose2860575576369681716_db-volume

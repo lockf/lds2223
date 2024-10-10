@@ -1,0 +1,17 @@
+.event-img {
+    margin-right: 10%;
+}
+
+.events-list {
+    margin-bottom: 5%;
+}
+.title-hour{
+   display: flex;
+   justify-content: space-between;
+}
+
+.map {
+    height: 20%;
+    border: 1px solid black;
+    margin-bottom: 10%;
+}

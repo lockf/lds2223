@@ -1,0 +1,3 @@
+docker tag rmcc0951/lds_db:new rmcc0951/lds_db:new
+docker commit <existing-container> rmcc0951/lds_db:new
+docker push rmcc0951/lds_db:new
